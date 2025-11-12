@@ -1,8 +1,8 @@
- VindiBank API
+🏦 VindiBank API
 
 API REST desenvolvida em .NET 8 para gerenciamento de contas bancárias, permitindo criação, consulta, desativação e transferência de saldo entre contas.
 
- Visão Geral
+📋 Visão Geral
 
 A VindiBank API simula o fluxo operacional de um sistema bancário simplificado, com suporte a:
 
@@ -14,7 +14,7 @@ Desativação lógica de contas.
 
 Transferência entre contas com controle de transação e verificação de saldo.
 
- Tecnologias Utilizadas
+⚙️ Tecnologias Utilizadas
 
 .NET 8 / C#
 
@@ -30,7 +30,7 @@ Transações e locks (SELECT ... FOR UPDATE)
 
 Arquitetura em camadas (Controller → Service → Repository)
 
- Estrutura de Banco de Dados
+🧱 Estrutura de Banco de Dados
 CREATE SEQUENCE IF NOT EXISTS id_conta_vindi_seq START 1;
 
 CREATE TABLE IF NOT EXISTS public.es_vindiclientes_table (
@@ -47,7 +47,7 @@ CREATE TABLE IF NOT EXISTS public.es_vindiclientes_table (
 
 Cada conta possui saldo inicial padrão de 1000, definido tanto na tabela quanto na model.
 
- Endpoints Principais
+🧩 Endpoints Principais
 Método	Rota	Descrição	Corpo da Requisição	Retorno
 POST	/api/controller/CreateAccount	Cria nova conta	AccountVindi	200 / 400
 GET	/api/controller/GetAccounts	Busca conta(s) por documento ou nome	Query params	AccountVindi
@@ -74,7 +74,7 @@ Content-Type: application/json
   "saldoDocumentoSaida": 250
 }
 
- Regras Importantes
+🔄 Regras Importantes
 
 Contas inativas não podem transferir ou receber valores.
 
@@ -86,7 +86,7 @@ A transferência é atômica (uso de transação e rollback automático em erro)
 
 A tabela possui constraint de unicidade por documento (uq_documento).
 
- Execução Local
+🚀 Execução Local
 
 Configure o PostgreSQL e crie o banco vindibank.
 
@@ -105,7 +105,7 @@ dotnet run
 
 API disponível em https://localhost:5001.
 
- Estrutura do Projeto
+📦 Estrutura do Projeto
 VindiBank/
  ├── Controllers/
  │    └── HomeController.cs
@@ -120,7 +120,7 @@ VindiBank/
  ├── Program.cs
  └── appsettings.Development.json
 
- Observações Técnicas
+🧠 Observações Técnicas
 
 FluxoAPIControll atua como roteador lógico entre o controller e os métodos do repositório.
 
@@ -130,7 +130,7 @@ A validação de erro é centralizada: se o retorno contiver "Erro:", é lançad
 
 O saldo padrão é configurado diretamente no modelo e na base de dados, garantindo consistência.
 
- Próximos Passos
+📌 Próximos Passos
 
 Adicionar Swagger para documentação automática.
 
