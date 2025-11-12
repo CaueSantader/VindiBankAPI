@@ -1,0 +1,15 @@
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Repository\bin\Debug\net8.0\VindiBank.Repository.deps.json
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Repository\bin\Debug\net8.0\VindiBank.Repository.dll
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Repository\bin\Debug\net8.0\VindiBank.Repository.pdb
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Repository\bin\Debug\net8.0\VindiBank.Models.dll
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Repository\bin\Debug\net8.0\VindiBank.Models.pdb
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Repository\obj\Debug\net8.0\VindiBank.Repository.csproj.AssemblyReference.cache
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Repository\obj\Debug\net8.0\VindiBank.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Repository\obj\Debug\net8.0\VindiBank.Repository.AssemblyInfoInputs.cache
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Repository\obj\Debug\net8.0\VindiBank.Repository.AssemblyInfo.cs
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Repository\obj\Debug\net8.0\VindiBank.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Repository\obj\Debug\net8.0\VindiBan.D6A7FFFC.Up2Date
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Repository\obj\Debug\net8.0\VindiBank.Repository.dll
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Repository\obj\Debug\net8.0\refint\VindiBank.Repository.dll
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Repository\obj\Debug\net8.0\VindiBank.Repository.pdb
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Repository\obj\Debug\net8.0\ref\VindiBank.Repository.dll

@@ -1,0 +1,11 @@
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Models\bin\Debug\net8.0\VindiBank.Models.deps.json
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Models\bin\Debug\net8.0\VindiBank.Models.dll
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Models\bin\Debug\net8.0\VindiBank.Models.pdb
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Models\obj\Debug\net8.0\VindiBank.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Models\obj\Debug\net8.0\VindiBank.Models.AssemblyInfoInputs.cache
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Models\obj\Debug\net8.0\VindiBank.Models.AssemblyInfo.cs
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Models\obj\Debug\net8.0\VindiBank.Models.csproj.CoreCompileInputs.cache
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Models\obj\Debug\net8.0\VindiBank.Models.dll
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Models\obj\Debug\net8.0\refint\VindiBank.Models.dll
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Models\obj\Debug\net8.0\VindiBank.Models.pdb
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Models\obj\Debug\net8.0\ref\VindiBank.Models.dll

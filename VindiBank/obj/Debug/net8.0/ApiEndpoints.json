@@ -1,0 +1,71 @@
+[
+  {
+    "ContainingType": "VindiBank.Controllers.HomeController",
+    "Method": "AccountDeactivation",
+    "RelativePath": "api/controller/AccountDeactivation",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "deleteAccount",
+        "Type": "VindiBank.Models.API.DeleteAccount",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VindiBank.Controllers.HomeController",
+    "Method": "AccountTransfer",
+    "RelativePath": "api/controller/AccountTransfer",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "transferBetweenAccounts",
+        "Type": "VindiBank.Models.API.TransferBetweenAccounts",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VindiBank.Controllers.HomeController",
+    "Method": "CreateAccount",
+    "RelativePath": "api/controller/CreateAccount",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountVindi",
+        "Type": "VindiBank.Models.API.AccountVindi",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "VindiBank.Controllers.HomeController",
+    "Method": "GetAccounts",
+    "RelativePath": "api/controller/GetAccounts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "documento",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "nomeCliente",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

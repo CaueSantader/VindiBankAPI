@@ -1,0 +1,17 @@
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Business\bin\Debug\net8.0\VindiBank.Business.deps.json
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Business\bin\Debug\net8.0\VindiBank.Business.dll
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Business\bin\Debug\net8.0\VindiBank.Business.pdb
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Business\bin\Debug\net8.0\VindiBank.Models.dll
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Business\bin\Debug\net8.0\VindiBank.Repository.dll
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Business\bin\Debug\net8.0\VindiBank.Models.pdb
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Business\bin\Debug\net8.0\VindiBank.Repository.pdb
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Business\obj\Debug\net8.0\VindiBank.Business.csproj.AssemblyReference.cache
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Business\obj\Debug\net8.0\VindiBank.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Business\obj\Debug\net8.0\VindiBank.Business.AssemblyInfoInputs.cache
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Business\obj\Debug\net8.0\VindiBank.Business.AssemblyInfo.cs
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Business\obj\Debug\net8.0\VindiBank.Business.csproj.CoreCompileInputs.cache
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Business\obj\Debug\net8.0\VindiBan.18715284.Up2Date
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Business\obj\Debug\net8.0\VindiBank.Business.dll
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Business\obj\Debug\net8.0\refint\VindiBank.Business.dll
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Business\obj\Debug\net8.0\VindiBank.Business.pdb
+C:\Users\Caue\source\repos\VindiBank\VindiBank.Business\obj\Debug\net8.0\ref\VindiBank.Business.dll
