@@ -31,18 +31,23 @@ Transações e locks (SELECT ... FOR UPDATE)
 Arquitetura em camadas (Controller → Service → Repository)
 
 🧱 Estrutura de Banco de Dados
-CREATE SEQUENCE IF NOT EXISTS id_conta_vindi_seq START 1;
+CREATE SEQUENCE id_conta_vindi_seq 
+    INCREMENT 1
+    MINVALUE 1
+    MAXVALUE 999999
+    START 1;
 
-CREATE TABLE IF NOT EXISTS public.es_vindiclientes_table (
-    id_conta_vindi_int BIGINT PRIMARY KEY DEFAULT nextval('id_conta_vindi_seq'),
+CREATE TABLE public.es_vindiclientes_table (
+    id_conta_vindi_int BIGINT DEFAULT nextval('id_conta_vindi_seq') NOT NULL,
     nome_cliente_str VARCHAR(999) NOT NULL,
     documento_str VARCHAR(20) NOT NULL,
-    tipo_conta_str VARCHAR(50) NOT NULL,
-    saldo_dec NUMERIC(18,2) NOT NULL DEFAULT 1000,
-    data_abertura_conta_tstamp TIMESTAMP NOT NULL DEFAULT now(),
-    status_conta_bit BIT(1) NOT NULL DEFAULT B'1',
-    CONSTRAINT uq_documento UNIQUE (documento_str)
-);
+    tipo_conta_str VARCHAR NOT NULL,
+    saldo_dec DECIMAL,
+    data_abertura_conta_tstamp TIMESTAMP NOT NULL,
+    data_encerramento_conta_tstamp TIMESTAMP NULL,
+    status_conta bool NOT null,
+    
+    CONSTRAINT uq_documento UNIQUE (documento_str));
 
 
 Cada conta possui saldo inicial padrão de 1000, definido tanto na tabela quanto na model.
